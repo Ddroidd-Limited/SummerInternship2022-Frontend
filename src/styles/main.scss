@@ -1,0 +1,20 @@
+@import 'reset';
+@import 'variables';
+@import 'typography';
+@import 'reset';
+@import 'base';
+
+/*** Please replace the example styling rules below with your own styling rules ***/
+body {
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  & h1 {
+    font-weight: $font-weight-regular;
+  }
+}
